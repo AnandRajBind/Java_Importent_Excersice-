@@ -22,8 +22,8 @@ public class PrimeNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of num");
         int num = sc.nextInt();
-
         PrimeNumber obj = new PrimeNumber();
         obj.Prime(num);
+        
     }
 }
